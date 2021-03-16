@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
-var PostSchema = new mongoose.Schema({
-  title: String,
+var PostSchema = new mongoose.Schema(
+  title: String
   body: String
 });
 
